@@ -8,13 +8,16 @@ body{
 }
 
 #calculator{
-    width: 320px;
+width: 320px;
 height:520;
 background-color: rgb(255, 206, 173);
 margin: 0px auto;
 top: 20px;
 position: relative;
-border-radius: 5px;
+border-radius: 10px;
+border-style:solid;
+border-color: rgb(221, 152, 145);
+border-width: 2px;
 }
 
 #result{
@@ -88,3 +91,12 @@ button:nth-child(20){
     background-color: rgb(0, 77, 128);
 }
 
+#CN{
+    position: relative;
+    float: right;
+    padding-top: 50px;
+    padding-right: 100px;
+    line-height: 9px;
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
